@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47574037213FB14E00A99ACC /* MyTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574036213FB14E00A99ACC /* MyTableViewCellModel.m */; };
 		47597135213F5E940041BB13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47597134213F5E940041BB13 /* AppDelegate.m */; };
 		47597138213F5E940041BB13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47597137213F5E940041BB13 /* ViewController.m */; };
 		4759713B213F5E940041BB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47597139213F5E940041BB13 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		47597143213F5E960041BB13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47597142213F5E960041BB13 /* main.m */; };
 		4759714D213F5E960041BB13 /* CustomCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759714C213F5E960041BB13 /* CustomCellTests.m */; };
 		47597158213F5E960041BB13 /* CustomCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47597157213F5E960041BB13 /* CustomCellUITests.m */; };
+		47597167213F7EF10041BB13 /* ChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47597166213F7EF10041BB13 /* ChangeView.m */; };
+		4759716B213FABE20041BB13 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47597169213FABE20041BB13 /* MyTableViewCell.m */; };
+		4759716C213FABE20041BB13 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4759716A213FABE20041BB13 /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47574035213FB14E00A99ACC /* MyTableViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCellModel.h; sourceTree = "<group>"; };
+		47574036213FB14E00A99ACC /* MyTableViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCellModel.m; sourceTree = "<group>"; };
 		47597130213F5E940041BB13 /* CustomCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47597133213F5E940041BB13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47597134213F5E940041BB13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,11 @@
 		47597153213F5E960041BB13 /* CustomCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47597157213F5E960041BB13 /* CustomCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellUITests.m; sourceTree = "<group>"; };
 		47597159213F5E960041BB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47597165213F7EF10041BB13 /* ChangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeView.h; sourceTree = "<group>"; };
+		47597166213F7EF10041BB13 /* ChangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeView.m; sourceTree = "<group>"; };
+		47597168213FABE20041BB13 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		47597169213FABE20041BB13 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		4759716A213FABE20041BB13 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +116,18 @@
 				47597134213F5E940041BB13 /* AppDelegate.m */,
 				47597136213F5E940041BB13 /* ViewController.h */,
 				47597137213F5E940041BB13 /* ViewController.m */,
+				47597168213FABE20041BB13 /* MyTableViewCell.h */,
+				47597169213FABE20041BB13 /* MyTableViewCell.m */,
+				47574035213FB14E00A99ACC /* MyTableViewCellModel.h */,
+				47574036213FB14E00A99ACC /* MyTableViewCellModel.m */,
+				4759716A213FABE20041BB13 /* MyTableViewCell.xib */,
 				47597139213F5E940041BB13 /* Main.storyboard */,
 				4759713C213F5E960041BB13 /* Assets.xcassets */,
 				4759713E213F5E960041BB13 /* LaunchScreen.storyboard */,
 				47597141213F5E960041BB13 /* Info.plist */,
 				47597142213F5E960041BB13 /* main.m */,
+				47597165213F7EF10041BB13 /* ChangeView.h */,
+				47597166213F7EF10041BB13 /* ChangeView.m */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -236,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47597140213F5E960041BB13 /* LaunchScreen.storyboard in Resources */,
+				4759716C213FABE20041BB13 /* MyTableViewCell.xib in Resources */,
 				4759713D213F5E960041BB13 /* Assets.xcassets in Resources */,
 				4759713B213F5E940041BB13 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47597167213F7EF10041BB13 /* ChangeView.m in Sources */,
 				47597138213F5E940041BB13 /* ViewController.m in Sources */,
 				47597143213F5E960041BB13 /* main.m in Sources */,
+				47574037213FB14E00A99ACC /* MyTableViewCellModel.m in Sources */,
 				47597135213F5E940041BB13 /* AppDelegate.m in Sources */,
+				4759716B213FABE20041BB13 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZ8TP539QY;
 				INFOPLIST_FILE = CustomCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZZ8TP539QY;
 				INFOPLIST_FILE = CustomCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
